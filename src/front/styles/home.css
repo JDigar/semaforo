@@ -5,3 +5,43 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+
+.divCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.traffic {
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.glow {
+    box-shadow: 0 0 30px 10px rgb(255, 255, 255);
+    animation: glow 3seg linear infinite alternate;
+}
